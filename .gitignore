@@ -1,0 +1,28 @@
+# Internal Docs
+PRD-RT-ADMIN.md
+
+# Local Databases (Bumbu Dapur)
+backend/database/database.sqlite
+backend/database/database.sqlite-journal
+
+# Local Environment & Logs
+.env
+backend/.env
+frontend/.env
+*.log
+frontend/vite.log
+
+# Dependencies
+node_modules/
+vendor/
+
+# IDE & OS Junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build outputs
+frontend/dist/
+backend/public/storage
+backend/storage/*.key
